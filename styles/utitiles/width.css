@@ -1,0 +1,7 @@
+.u-widthNormal {
+  width: var(--width-normal);
+}
+
+.u-widthExpanded {
+  width: var(--width-expanded);
+}

@@ -1,0 +1,12 @@
+.u-textLarge {
+  font-size: var(--text-fontSize-large);
+}
+
+.u-textXlarge {
+  font-family: var(--text-font-serif);
+  font-size: var(--text-fontSize-xlarge);
+}
+
+.u-textSecondary {
+  color: var(--text-color-secondary);
+}

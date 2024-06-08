@@ -1,0 +1,79 @@
+@import url(reset.css);
+@import url(../../fonts/inter/inter.css);
+@import url(../../fonts/source-serif/source-serif.css);
+
+/* #[Değişkenler] */
+:root {
+  /* ##[Yazı tipi](--text-*) */
+
+  /* yazı tipleri */
+  --text-font-sans-serif  : 'Inter', sans-serif, system-ui;
+  --text-font-serif       : 'Source Serif 4', serif, system-ui;
+
+  /* boyutlar */
+  --text-fontSize-regular: clamp(1.1rem, calc(2vw + .5rem), 1.15rem);
+  --text-fontSize-large:   calc(var(--text-fontSize-regular) * 1.2);
+  --text-fontSize-xlarge:  calc(var(--text-fontSize-large) * 1.3);
+
+  /* renkler */
+  --text-color-primary: var(--color-gray750);
+  --text-color-secondary: var(--color-gray500);
+  --link-color: var(--color-blue600);
+  --link-onHover-color: var(--color-blue500);
+
+
+  /* ##[Renkler](--color-*) */
+  --color-gray300: #C8CCD1;
+  --color-gray750: #202122;
+  --color-gray500: #72777d;
+  
+  --color-blue500: #447ff5;
+  --color-blue600: #36c;
+
+  /* ##[Kenarlıklar] */
+  --border-color-primary: var(--color-gray300);
+  --border-color-secondary: var(--color-gray500);
+
+  /* ##[Genişlikler] */
+  --width-normal  : clamp(20vw, 90%, 80ch);
+  --width-expanded: clamp(20vw, 90%, 100ch);
+
+  /* ##[Boşluk birimleri] */
+  --spacing-1x: 1rem;
+  --spacing-2x: 2rem;
+}
+
+/* #[Site geneli tanımlamalar] */
+* {
+  font-family: var(--text-font-sans-serif);
+  font-size: var(--text-fontSize-regular);
+  line-height: 1.8;
+}
+
+*:focus-visible {
+  background: yellow;
+  outline: 4px solid;
+  outline-offset: 4px;
+}
+
+
+body {
+  color: var(--text-color-primary);
+}
+
+
+a { color: var(--link-color); }
+
+a:hover {
+  color: var(--link-onHover-color);
+  text-decoration: underline dashed;
+}
+
+a:active {
+  text-decoration: underline solid 2px;
+}
+
+h1 {
+  font-family: var(--text-font-serif);
+  font-weight: 400;
+}

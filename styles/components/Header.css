@@ -1,0 +1,25 @@
+.Headerbar {
+  /* Yerleşim */
+  display: flex;
+  flex-direction: column;
+}
+
+  .Headerbar-siteName {
+    border-bottom: 1px solid var(--border-color-primary);
+
+    font-family: var(--text-font-sans-serif);
+    font-weight: bold;
+  }
+
+  .Headerbar-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 0;
+
+    list-style: none;
+  }
+
+    .Headerbar-navbar-item {
+      padding: var(--spacing-1x);
+    }

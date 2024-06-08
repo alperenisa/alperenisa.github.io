@@ -1,0 +1,32 @@
+.u-paddingInlineNormal, .u-paddingNormal {
+  padding-inline: var(--spacing-1x);
+}
+
+.u-paddingBlockNormal, .u-paddingNormal {
+  padding-block: var(--spacing-1x);
+}
+
+.u-paddingInlineLarge, .u-paddingLarge {
+  padding-inline: var(--spacing-2x);
+}
+
+.u-paddingBlockLarge, .u-paddingLarge {
+  padding-block: var(--spacing-2x);
+}
+
+.u-marginInlineNormal, .u-marginNormal {
+  margin-inline: var(--spacing-1x);
+}
+
+.u-marginBlockNormal, .u-marginNormal {
+  margin-block: var(--spacing-1x);
+}
+
+.u-marginInlineLarge, .u-marginLarge {
+  margin-inline: var(--spacing-2x);
+}
+
+.u-marginBlockLarge, .u-marginLarge {
+  margin-block: var(--spacing-2x);
+}
+

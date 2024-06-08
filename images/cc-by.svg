@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57.69598"
+   height="32"
+   viewBox="0 0 57.69598 32"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       style="color:currentColor;fill:currentColor;stroke-linecap:square;-inkscape-stroke:none"
+       d="M 16,0 C 7.1752975,0 0,7.1752975 0,16 0,24.824703 7.1752975,32 16,32 24.824703,32 32,24.824703 32,16 32,7.1752975 24.824703,0 16,0 Z m 0,2 C 23.743823,2 30,8.2561766 30,16 30,23.743823 23.743823,30 16,30 8.2561766,30 2,23.743823 2,16 2,8.2561766 8.2561766,2 16,2 Z"
+       id="path1" />
+    <path
+       d="m 12.224007,10.112001 c -3.0720002,0 -5.2480002,2.144 -5.2480002,5.856 0,3.856 2.096,5.92 5.3440002,5.92 1.568,0 2.864,-0.736 3.68,-1.552 l -1.44,-1.856 c -0.656,0.512 -1.264,0.928 -2.048,0.928 -1.328,0 -2.112,-1.088 -2.112,-3.44 0,-2.352 0.768,-3.488 2.016,-3.488 0.768,0 1.36,0.304 1.888,0.784 l 1.568,-1.84 c -0.944,-0.816 -2.096,-1.312 -3.648,-1.312 z m 9.023987,0 c -3.072,0 -5.248,2.144 -5.248,5.856 0,3.856 2.096,5.92 5.344,5.92 1.568,0 2.864,-0.736 3.68,-1.552 l -1.44,-1.856 c -0.656,0.512 -1.264,0.928 -2.048,0.928 -1.328,0 -2.112,-1.088 -2.112,-3.44 0,-2.352 0.768,-3.488 2.016,-3.488 0.768,0 1.36,0.304 1.888,0.784 l 1.568,-1.84 c -0.944,-0.816 -2.096,-1.312 -3.648,-1.312 z"
+       id="text1"
+       style="font-weight:900;font-size:16px;line-height:1;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Heavy';text-align:center;letter-spacing:0px;text-anchor:middle;fill:currentColor;stroke-width:2;stroke-linecap:square"
+       aria-label="CC" />
+    <path
+       d="m 45.455999,15.664001 c 0.992,-0.256 2.016,-0.912 2.016,-2.352 0,-2.176 -1.968,-2.88 -5.088,-2.88 h -3.472 v 11.136 h 3.904 c 2.928,0 5.12,-0.656 5.12,-3.296 0,-1.744 -1.264,-2.352 -2.48,-2.608 z m -2.768,-2.976 c 1.056,0 1.44,0.304 1.44,0.96 0,0.784 -0.352,1.088 -1.36,1.088 h -0.56 v -2.048 z m 0.16,6.56 h -0.64 v -2.432 h 0.768 c 1.024,0 1.568,0.368 1.568,1.232 0,0.992 -0.688,1.2 -1.696,1.2 z m 14.847981,-8.816 h -3.488 l -1.664,4.544 -1.648,-4.544 h -3.6 l 3.552,7.04 v 4.096 h 3.296 v -4.112 z"
+       id="text2"
+       style="font-weight:900;font-size:16px;line-height:1;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Heavy';text-align:center;letter-spacing:0px;text-anchor:middle;fill:currentColor;stroke-width:2;stroke-linecap:square"
+       aria-label="BY" />
+  </g>
+</svg>

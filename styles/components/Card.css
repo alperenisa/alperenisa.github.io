@@ -1,0 +1,60 @@
+.CardGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1x);
+}
+
+  .Card {
+    display: flex;
+    gap    : var(--spacing-1x);
+
+    padding: var(--spacing-1x);
+
+    border: 1px solid var(--border-color-primary);
+
+    transition : box-shadow 200ms ease,
+                 border 200ms ease;
+    will-change: box-shadow, border;
+  }
+
+  .Card, .Card:hover, .Card:active {
+    text-decoration: none;
+  }
+
+  .Card:hover {
+    box-shadow: 0 .5rem 2rem -1.2rem var(--color-gray500);
+  }
+
+  .Card:active {
+    box-shadow: none;
+    border: 1px solid var(--border-color-secondary);
+  }
+
+    .Card-figure {
+      max-width : 5rem;
+      max-height: 5rem;
+    }
+      
+      .Card-figure-img {
+        object-fit: cover;
+      }
+
+    .Card-details {
+      text-decoration: none;
+    }
+
+      .Card-details-description {
+        color: var(--text-color-secondary);
+        
+        padding-block-end: var(--spacing-1x);
+      }
+
+      .Card-details-footer {
+        border-block-start : 1px solid var(--border-color-primary);
+        padding-block-start: var(--spacing-1x);
+      }
+
+        .Card-details-footer-date {
+          color: var(--text-color-secondary);
+        }
+
