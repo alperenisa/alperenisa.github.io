@@ -22,7 +22,7 @@
   }
 
   .Card:hover {
-    box-shadow: 0 .5rem 2rem -1.2rem var(--color-gray500);
+    box-shadow: var(--shadow-primary);
   }
 
   .Card:active {

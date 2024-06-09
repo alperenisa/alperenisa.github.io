@@ -41,6 +41,9 @@
   /* ##[Boşluk birimleri] */
   --spacing-1x: 1rem;
   --spacing-2x: 2rem;
+
+  /* ##[Gölgeler] */
+  --shadow-primary: 0 .5rem 2rem -1.2rem var(--color-gray500);
 }
 
 /* #[Site geneli tanımlamalar] */
