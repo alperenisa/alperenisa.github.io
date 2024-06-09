@@ -44,6 +44,10 @@
 
   /* ##[Gölgeler] */
   --shadow-primary: 0 .5rem 2rem -1.2rem var(--color-gray500);
+
+  /* ##[Saydamlık] */
+  --opacity-normal: .5;
+  --opacity-none  : 1;
 }
 
 /* #[Site geneli tanımlamalar] */

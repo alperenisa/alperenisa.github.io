@@ -1,0 +1,18 @@
+.Footer {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-between;
+}
+  .Footer > * {
+    opacity: var(--opacity-normal);
+  }
+
+  .Footer-license {
+    will-change: opacity;
+    transition : opacity 200ms ease;
+  }
+
+  .Footer-license:hover, .Footer-license:active,
+  .Footer-license:focus {
+    opacity: var(--opacity-none);
+  }
