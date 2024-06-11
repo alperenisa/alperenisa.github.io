@@ -1,12 +1,13 @@
 .CardGroup {
-  display: flex;
+  display       : flex;
   flex-direction: column;
   gap: var(--spacing-1x);
 }
 
   .Card {
-    display: flex;
-    gap    : var(--spacing-1x);
+    display       : flex;
+    flex-direction: column;
+    gap           : var(--spacing-1x);
 
     padding: var(--spacing-1x);
 
@@ -31,12 +32,19 @@
   }
 
     .Card-figure {
-      max-width : 5rem;
-      max-height: 5rem;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
     }
       
-      .Card-figure-img {
+      .Card-figure img {
+        width: 100%;
+
         object-fit: cover;
+        background-position: center;
+
+        /* Görseli ortalamanın daha iyi bir yolunu bulamadım. */
+        position: relative;
+        bottom: 50%;
       }
 
     .Card-details {
