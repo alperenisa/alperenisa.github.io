@@ -66,3 +66,16 @@
           color: var(--text-color-secondary);
         }
 
+  .Card--tinyImage {
+    flex-direction: row;
+  }
+
+    .Card--tinyImage .Card-figure {
+      aspect-ratio: 1 / 1;
+      width: calc(var(--text-fontSize-xlarge) * 6);
+    }
+
+    .Card--tinyImage .Card-figure img {
+      bottom: unset;
+    }    
+
