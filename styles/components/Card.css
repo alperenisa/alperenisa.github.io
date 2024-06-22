@@ -73,6 +73,7 @@
     .Card--tinyImage .Card-figure {
       aspect-ratio: 1 / 1;
       width: calc(var(--text-fontSize-xlarge) * 6);
+      min-width: 64px;
     }
 
     .Card--tinyImage .Card-figure img {
