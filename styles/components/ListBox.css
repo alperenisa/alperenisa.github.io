@@ -1,12 +1,22 @@
 /* ul */.ListBox {
   display: flex;
-  gap: var(--spacing-2x);
+  flex-wrap: wrap;
+  gap: var(--spacing-1x);
 
   padding: 0;
 
   list-style-type: none;
 }
 
+  .ListBox > * {
+    width: min-content;
+  }
+
 .ListBox--vertical {
   flex-direction: column;
+  gap: var(--spacing-2x);
 }
+
+  .ListBox--vertical > * {
+    width: initial;
+  }
