@@ -48,6 +48,8 @@
       }
 
     .Card-details {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
       text-decoration: none;
     }
 
