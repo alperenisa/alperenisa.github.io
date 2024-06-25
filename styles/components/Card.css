@@ -4,6 +4,48 @@
   gap: var(--spacing-1x);
 }
 
+  .CardGroup-header {
+    display: grid;
+    grid-template-areas: "icon details details"
+                         "icon details details"
+                         "actions actions actions";
+    grid-template-columns: auto 1fr 1fr;
+    gap: var(--spacing-1x);
+  }
+
+    .CardGroup-header-icon {
+      display: flex;
+
+      align-items    : center;
+      justify-content: center;
+
+      aspect-ratio: 1 / 1;
+
+      overflow: hidden;
+
+      max-width: 32px;
+
+      grid-area: icon;
+    }
+
+    .CardGroup-header-details {
+      grid-area: details;
+    }
+
+    .CardGroup-header-description {
+      color: var(--text-color-secondary);
+
+      grid-area: description;
+    }
+
+    .CardGroup-header-actions {
+      display: flex;
+      gap: var(--spacing-1x);
+      flex-wrap: wrap;
+
+      grid-area: actions;
+    }
+
   .Card {
     display       : flex;
     flex-direction: column;
