@@ -12,13 +12,13 @@
 
     .CardGroup-header-details {
       display: flex;
+      flex-wrap: wrap;
       align-items: start;
       gap: var(--spacing-1x);
     }
 
       .CardGroup-header-title {
-        flex-basis: 0;
-        flex-grow: 1;
+        width: calc(100% - 32px - var(--spacing-1x));
       }
 
       .CardGroup-header-icon {
@@ -36,11 +36,6 @@
 
       .CardGroup-header-description {
         color: var(--text-color-secondary);
-        
-        margin-inline-start: var(--spacing-2x);
-
-        flex-basis: 0;
-        flex-grow: 1;
       }
 
     .CardGroup-header-actions {
