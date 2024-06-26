@@ -39,8 +39,9 @@
   --width-expanded: clamp(20vw, 90%, 100ch);
 
   /* ##[Boşluk birimleri] */
-  --spacing-1x: 1rem;
-  --spacing-2x: 2rem;
+  --spacing-tiny: .5rem;
+  --spacing-normal: 1rem;
+  --spacing-large: 2rem;
 
   /* ##[Gölgeler] */
   --shadow-primary: 0 .5rem 2rem -1.2rem var(--color-gray500);
@@ -59,7 +60,7 @@
 
 *:focus-visible {
   background: yellow;
-  outline: 4px solid;
+  outline: 4px solid var(--color-blue600);
   outline-offset: 4px;
 }
 

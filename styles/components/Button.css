@@ -1,0 +1,49 @@
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-tiny);
+
+  text-decoration: none;
+
+  padding: var(--spacing-tiny) var(--spacing-normal);
+  border: 1px solid var(--border-color-primary);
+  color: var(--text-color-primary);
+
+  font-weight: 600;
+
+  transition : box-shadow 200ms ease;
+  will-change: box-shadow;
+}
+
+.Button:hover {
+  box-shadow: var(--shadow-primary);
+  opacity: .9;
+}
+
+.Button:focus-visible {
+  outline: 4px solid var(--color-blue500);
+  outline-offset: 4px;
+}
+
+.Button:active {
+  box-shadow: none;
+  opacity: 1;
+}
+
+
+.Button--suggested {
+  background: var(--color-blue600);
+  color: white;
+}
+
+.Button--suggested:hover {
+  color: white;
+}
+
+
+.Button--text {
+  color: var(--link-color);
+  border: none;
+  box-shadow: none !important;
+}

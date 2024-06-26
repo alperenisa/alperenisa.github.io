@@ -2,13 +2,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   align-items          : stretch;
-  gap: var(--spacing-2x);
+  gap: var(--spacing-large);
 
   padding: 0;
 
   list-style-type: none;
 
-  margin-bottom: var(--spacing-2x);
+  margin-bottom: var(--spacing-large);
 }
 
     .ListBox > * > * {

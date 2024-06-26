@@ -1,24 +1,24 @@
 .CardGroup {
   display       : flex;
   flex-direction: column;
-  gap: var(--spacing-1x);
+  gap: var(--spacing-normal);
 }
 
   .CardGroup-header {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-1x);
+    gap: var(--spacing-normal);
   }
 
     .CardGroup-header-details {
       display: flex;
       flex-wrap: wrap;
       align-items: start;
-      gap: var(--spacing-1x);
+      gap: var(--spacing-normal);
     }
 
       .CardGroup-header-title {
-        width: calc(100% - 32px - var(--spacing-1x));
+        width: calc(100% - 32px - var(--spacing-normal));
       }
 
       .CardGroup-header-icon {
@@ -40,16 +40,16 @@
 
     .CardGroup-header-actions {
       display: flex;
-      gap: var(--spacing-1x);
+      gap: var(--spacing-normal);
       flex-wrap: wrap;
     }
 
   .Card {
     display       : flex;
     flex-direction: column;
-    gap           : var(--spacing-1x);
+    gap           : var(--spacing-normal);
 
-    padding: var(--spacing-1x);
+    padding: var(--spacing-normal);
 
     border: 1px solid var(--border-color-primary);
 
@@ -96,12 +96,12 @@
       .Card-details-description {
         color: var(--text-color-secondary);
         
-        padding-block-end: var(--spacing-1x);
+        padding-block-end: var(--spacing-normal);
       }
 
       .Card-details-footer {
         border-block-start : 1px solid var(--border-color-primary);
-        padding-block-start: var(--spacing-1x);
+        padding-block-start: var(--spacing-normal);
       }
 
         .Card-details-footer-date {

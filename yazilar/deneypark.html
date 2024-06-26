@@ -52,7 +52,7 @@
       >
         <span class="Hero-title u-textXlarge"> Deney parkı </span>
         <span class="Hero-content u-textSecondary">
-          Sitenin sınırlarını test etmek ve bileşenleri tasarlamak için
+          Sitenin sınırlarını teste etmek ve bileşenleri tasarlamak için
           oluşturduğum sayfa.
         </span>
       </div>
@@ -225,6 +225,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
+                aria-hidden="true"
               >
                 <path
                   d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
@@ -248,24 +249,31 @@
             </span>
           </div>
           <div class="CardGroup-header-actions">
-            <div
-              style="
-                background: var(--color-blue500);
-                color: white;
-                padding: var(--spacing-1x);
-              "
-            >
-              Eylem 1
-            </div>
-            <div
-              style="
-                background: var(--color-blue500);
-                color: white;
-                padding: var(--spacing-1x);
-              "
-            >
-              Eylem 2
-            </div>
+            <a href="#" class="Button Button--text">Bağlantı düğmesi</a>
+            <a href="#" class="Button Button--suggested">
+              <!-- https://feathericons.dev/?search=arrow-right-circle&iconset=feather -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                class="main-grid-item-icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 16 16 12 12 8" />
+                <line x1="8" x2="16" y1="12" y2="12" />
+              </svg>
+              Önerilen eylem
+            </a>
+            <a href="#" class="Button">
+              Normal düğme
+            </a>
           </div>
         </div>
         <ul class="ListBox ListBox--vertical">
