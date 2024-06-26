@@ -1,0 +1,50 @@
+.Group {
+  display       : flex;
+  flex-direction: column;
+  gap: var(--spacing-normal);
+
+  margin-bottom: var(--spacing-large);
+}
+
+  .Group-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-normal);
+  }
+
+    .Group-header-details {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: start;
+      gap: var(--spacing-normal);
+    }
+
+      .Group-header-title {
+        font-family: var(--text-font-sans-serif);
+        font-size: var(--text-fontSize-regular);
+        font-weight: 600;
+        width: calc(100% - 32px - var(--spacing-normal));
+      }
+
+      .Group-header-icon {
+        display: flex;
+
+        align-items    : center;
+        justify-content: center;
+
+        aspect-ratio: 1 / 1;
+
+        overflow: hidden;
+
+        min-width: 32px;
+      }
+
+      .Group-header-description {
+        color: var(--text-color-secondary);
+      }
+
+    .Group-header-actions {
+      display: flex;
+      gap: var(--spacing-normal);
+      flex-wrap: wrap;
+    }

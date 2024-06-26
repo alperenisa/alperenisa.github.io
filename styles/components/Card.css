@@ -1,133 +1,86 @@
-.Group {
+
+
+.Card {
   display       : flex;
   flex-direction: column;
-  gap: var(--spacing-normal);
+  gap           : var(--spacing-normal);
+
+  padding: var(--spacing-normal);
+
+  border: 1px solid var(--border-color-primary);
+
+  transition : box-shadow 200ms ease,
+                border 200ms ease;
+  will-change: box-shadow, border;
 }
 
-  .Group-header {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-normal);
+.Card, .Card:hover, .Card:active {
+  text-decoration: none;
+}
+
+.Card:hover {
+  box-shadow: var(--shadow-primary);
+}
+
+.Card:active {
+  box-shadow: none;
+  border: 1px solid var(--border-color-secondary);
+}
+
+  .Card-title {
+    font-family: var(--text-font-sans-serif);
+    font-size: var(--text-fontSize-regular);
+    font-weight: 600;
   }
 
-    .Group-header-details {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: start;
-      gap: var(--spacing-normal);
-    }
-
-      .Group-header-title {
-        font-family: var(--text-font-sans-serif);
-        font-size: var(--text-fontSize-regular);
-        font-weight: 600;
-        width: calc(100% - 32px - var(--spacing-normal));
-      }
-
-      .Group-header-icon {
-        display: flex;
-
-        align-items    : center;
-        justify-content: center;
-
-        aspect-ratio: 1 / 1;
-
-        overflow: hidden;
-
-        min-width: 32px;
-      }
-
-      .Group-header-description {
-        color: var(--text-color-secondary);
-      }
-
-    .Group-header-actions {
-      display: flex;
-      gap: var(--spacing-normal);
-      flex-wrap: wrap;
-    }
-
-  .Card {
-    display       : flex;
-    flex-direction: column;
-    gap           : var(--spacing-normal);
-
-    padding: var(--spacing-normal);
-
-    border: 1px solid var(--border-color-primary);
-
-    transition : box-shadow 200ms ease,
-                 border 200ms ease;
-    will-change: box-shadow, border;
+  .Card-figure {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
   }
+    
+    .Card-figure img {
+      width: 100%;
 
-  .Card, .Card:hover, .Card:active {
+      object-fit: cover;
+      background-position: center;
+
+      /* Görseli ortalamanın daha iyi bir yolunu bulamadım. */
+      position: relative;
+      bottom: 50%;
+    }
+
+  .Card-details {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     text-decoration: none;
   }
 
-  .Card:hover {
-    box-shadow: var(--shadow-primary);
-  }
-
-  .Card:active {
-    box-shadow: none;
-    border: 1px solid var(--border-color-secondary);
-  }
-
-    .Card-title {
-      font-family: var(--text-font-sans-serif);
-      font-size: var(--text-fontSize-regular);
-      font-weight: 600;
-    }
-
-    .Card-figure {
-      aspect-ratio: 16 / 9;
-      overflow: hidden;
-    }
+    .Card-details-description {
+      color: var(--text-color-secondary);
       
-      .Card-figure img {
-        width: 100%;
-
-        object-fit: cover;
-        background-position: center;
-
-        /* Görseli ortalamanın daha iyi bir yolunu bulamadım. */
-        position: relative;
-        bottom: 50%;
-      }
-
-    .Card-details {
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      text-decoration: none;
+      padding-block-end: var(--spacing-normal);
     }
 
-      .Card-details-description {
+    .Card-details-footer {
+      border-block-start : 1px solid var(--border-color-primary);
+      padding-block-start: var(--spacing-normal);
+    }
+
+      .Card-details-footer-date {
         color: var(--text-color-secondary);
-        
-        padding-block-end: var(--spacing-normal);
       }
 
-      .Card-details-footer {
-        border-block-start : 1px solid var(--border-color-primary);
-        padding-block-start: var(--spacing-normal);
-      }
+.Card--tinyImage {
+  flex-direction: row;
+}
 
-        .Card-details-footer-date {
-          color: var(--text-color-secondary);
-        }
-
-  .Card--tinyImage {
-    flex-direction: row;
+  .Card--tinyImage .Card-figure {
+    aspect-ratio: 1 / 1;
+    width: calc(var(--text-fontSize-xlarge) * 6);
+    min-width: 64px;
   }
 
-    .Card--tinyImage .Card-figure {
-      aspect-ratio: 1 / 1;
-      width: calc(var(--text-fontSize-xlarge) * 6);
-      min-width: 64px;
-    }
-
-    .Card--tinyImage .Card-figure img {
-      bottom: unset;
-    }    
+  .Card--tinyImage .Card-figure img {
+    bottom: unset;
+  }    
 
