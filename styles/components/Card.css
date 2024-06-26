@@ -1,27 +1,30 @@
-.CardGroup {
+.Group {
   display       : flex;
   flex-direction: column;
   gap: var(--spacing-normal);
 }
 
-  .CardGroup-header {
+  .Group-header {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-normal);
   }
 
-    .CardGroup-header-details {
+    .Group-header-details {
       display: flex;
       flex-wrap: wrap;
       align-items: start;
       gap: var(--spacing-normal);
     }
 
-      .CardGroup-header-title {
+      .Group-header-title {
+        font-family: var(--text-font-sans-serif);
+        font-size: var(--text-fontSize-regular);
+        font-weight: 600;
         width: calc(100% - 32px - var(--spacing-normal));
       }
 
-      .CardGroup-header-icon {
+      .Group-header-icon {
         display: flex;
 
         align-items    : center;
@@ -34,11 +37,11 @@
         min-width: 32px;
       }
 
-      .CardGroup-header-description {
+      .Group-header-description {
         color: var(--text-color-secondary);
       }
 
-    .CardGroup-header-actions {
+    .Group-header-actions {
       display: flex;
       gap: var(--spacing-normal);
       flex-wrap: wrap;
@@ -70,6 +73,12 @@
     box-shadow: none;
     border: 1px solid var(--border-color-secondary);
   }
+
+    .Card-title {
+      font-family: var(--text-font-sans-serif);
+      font-size: var(--text-fontSize-regular);
+      font-weight: 600;
+    }
 
     .Card-figure {
       aspect-ratio: 16 / 9;

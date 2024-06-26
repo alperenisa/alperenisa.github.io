@@ -12,7 +12,7 @@
 
   /* boyutlar */
   --text-fontSize-regular: clamp(1.1rem, calc(2vw + .5rem), 1.15rem);
-  --text-fontSize-large:   calc(var(--text-fontSize-regular) * 1.2);
+  --text-fontSize-large:   calc(var(--text-fontSize-regular) * 1.25);
   --text-fontSize-xlarge:  calc(var(--text-fontSize-large) * 1.3);
 
   /* renkler */
@@ -81,7 +81,11 @@ a:active {
   text-decoration: underline solid 2px;
 }
 
-h1 {
+h1, h2 {
   font-family: var(--text-font-serif);
   font-weight: 400;
+}
+
+h2 {
+  font-size: var(--text-fontSize-large);
 }
