@@ -14,11 +14,13 @@
 
   transition : box-shadow 200ms ease;
   will-change: box-shadow;
+
+  cursor: pointer;
 }
 
 .Button:hover {
   box-shadow: var(--shadow-primary);
-  opacity: .9;
+  opacity: .8;
 }
 
 .Button:focus-visible {
@@ -42,8 +44,14 @@
 }
 
 
-.Button--text {
+.Button--text,
+.Button--destructive {
+  background: none;
   color: var(--link-color);
   border: none;
   box-shadow: none !important;
+}
+
+.Button--destructive {
+  color: var(--color-red600);
 }

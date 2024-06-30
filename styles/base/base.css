@@ -31,6 +31,8 @@
   --color-blue500: #447ff5;
   --color-blue600: #36c;
 
+  --color-red600: #d73333;
+
   /* ##[Kenarlıklar] */
   --border-color-primary: var(--color-gray300);
   --border-color-secondary: var(--color-gray500);

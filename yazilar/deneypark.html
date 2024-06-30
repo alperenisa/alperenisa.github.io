@@ -464,6 +464,39 @@ int main() {
   return 0;
 }</code></pre>
       </div>
+      <div class="Group u-alignCenter u-widthNormal">
+        <div class="Group-header u-paddingInlineNormal">
+          <div class="Group-header-details">
+            <h2 class="Group-header-title">
+              Form elemanları
+            </h2>
+          </div>
+          <form action="#" method="post">
+            <ul class="Group">
+              <li class="TextInput">
+                <label for="name">Adınız</label>
+                <input type="text" id="name" name="name" required>
+              </li>
+              <li class="TextInput">
+                <label for="mail">E-posta adresiniz</label>
+                <input type="email" id="mail" required>
+              </li>
+              <li class="TextInput TextInput--large">
+                <label for="message">Mesajınız</label>
+                <textarea name="message" id="message"></textarea>
+              </li>
+            </ul>
+            <input type="submit"
+                   value="Gönder"
+                   class="Button Button--suggested"
+            >
+            <input type="reset"
+                   value="Temizle"
+                   class="Button Button--destructive"
+            >
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer
