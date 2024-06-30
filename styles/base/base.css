@@ -92,6 +92,8 @@ pre {
 
   background: var(--color-gray750);
   color: white;
+
+  overflow: scroll;
 }
 
 code { font-family: var(--text-monospace); }
