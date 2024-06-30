@@ -9,6 +9,7 @@
   /* yazı tipleri */
   --text-font-sans-serif  : 'Inter', sans-serif, system-ui;
   --text-font-serif       : 'Source Serif 4', serif, system-ui;
+  --text-monospace        : 'Fira Code', monospace;
 
   /* boyutlar */
   --text-fontSize-regular: clamp(1.1rem, calc(2vw + .5rem), 1.15rem);
@@ -65,9 +66,7 @@
 }
 
 
-body {
-  color: var(--text-color-primary);
-}
+body { color: var(--text-color-primary);}
 
 
 a { color: var(--link-color); }
@@ -77,15 +76,20 @@ a:hover {
   text-decoration: underline dashed;
 }
 
-a:active {
-  text-decoration: underline solid 2px;
-}
+a:active { text-decoration: underline solid 2px; }
 
 h1, h2 {
   font-family: var(--text-font-serif);
   font-weight: 400;
 }
 
-h2 {
-  font-size: var(--text-fontSize-large);
+h2 { font-size: var(--text-fontSize-large); }
+
+pre {
+  padding: var(--spacing-normal);
+
+  background: var(--color-gray750);
+  color: white;
 }
+
+code { font-family: var(--text-monospace); }
