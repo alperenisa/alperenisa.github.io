@@ -1,0 +1,15 @@
+.l-flex {
+  --gap: var(--sizing-500);
+
+  align-items: center;
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+}
+
+[data-l-flex-wrap="nowrap"] { flex-wrap: nowrap; }
+
+[data-l-flex-gap="none"] { gap: 0; }
+
+.l-flowHorizontal.l-flexSpaceBetween { justify-content: space-between; }
+.l-flowVertical.l-flexSpaceBetween { align-items: space-between; }

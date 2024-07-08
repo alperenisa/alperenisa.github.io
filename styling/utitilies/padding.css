@@ -1,0 +1,4 @@
+.u-padding-500 {
+  padding-block: var(--sizing-500);
+  padding-inline: var(--sizing-500);
+}

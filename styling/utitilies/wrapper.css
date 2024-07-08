@@ -1,0 +1,9 @@
+.u-wrapper {
+  margin: 0 auto;
+  max-width: 70ch;
+  
+  padding-inline: var(--sizing-500);
+}
+
+[data-u-wrapper-padding="none"] { padding-inline: 0; }
+[data-u-wrapper-margin="none"] { margin: 0; }

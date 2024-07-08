@@ -1,0 +1,22 @@
+:root {
+  --fontSize-regular: clamp(.8rem, 4vw, 1rem);
+  --fontSize-large: clamp(1.2rem, 6vw, 1.4rem);
+
+
+  /* Since sizing depends on font size, I deeemed appropriate defining font size
+     first. */
+  --sizing-200: .25em;
+  --sizing-300: .5em;
+  --sizing-400: .75em;
+  --sizing-500: 1em;
+  --sizing-600: 1.25em;
+  --sizing-700: 1.5em;
+  --sizing-800: 1.75em;
+  --sizing-900: 3rem;
+
+  --color-primary: #ffffff;
+  --color-onPrimary: #0e0e0e;
+  --color-hover: rgba(0, 0, 0, .05);
+
+  --opacity-faded: .5;
+}

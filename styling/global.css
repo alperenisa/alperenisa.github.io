@@ -1,0 +1,41 @@
+@import url(reset.css);
+@import url(../fonts/jetbrains-mono/jetbrains-mono.css);
+@import url(tokens.css);
+
+@import url(utitilies/wrapper.css);
+@import url(utitilies/flex.css);
+@import url(utitilies/padding.css);
+@import url(utitilies/text.css);
+@import url(utitilies/faded.css);
+@import url(utitilies/margin.css);
+@import url(utitilies/clickable.css);
+
+@import url(blocks/button.css);
+@import url(blocks/card.css);
+@import url(blocks/listbox.css);
+
+
+*,
+*::before,
+*::after {
+  font-family: 'JetBrains Mono', monospace, system-ui;
+  font-size: var(--fontSize-regular);
+
+  color: var(--color-onPrimary);
+}
+
+body {
+  margin: min(10vw, 7rem) 1em;
+}
+
+hr {
+  border: 1px dashed;
+  display: block;
+  margin-block: var(--sizing-800) !important;
+  opacity: .5;
+  width: 5em;
+}
+
+p + p {
+  margin-top: var(--sizing-500);
+}
