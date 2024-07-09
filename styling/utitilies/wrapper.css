@@ -7,3 +7,7 @@
 
 [data-u-wrapper-padding="none"] { padding-inline: 0; }
 [data-u-wrapper-margin="none"] { margin: 0; }
+[data-u-wrapper-is_expanded="true"] {
+  max-width: 90ch;
+  margin-block: var(--sizing-900);
+}

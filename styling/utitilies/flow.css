@@ -1,3 +1,7 @@
 .l-flowHorizontal {
   flex-wrap: wrap;
 }
+
+.l-flowVertical > * + * {
+  margin-block-start: var(--sizing-800);
+}

@@ -4,6 +4,7 @@
 
 @import url(utitilies/wrapper.css);
 @import url(utitilies/flex.css);
+@import url(utitilies/flow.css);
 @import url(utitilies/padding.css);
 @import url(utitilies/text.css);
 @import url(utitilies/faded.css);
@@ -37,6 +38,11 @@ hr {
   width: 5em;
 }
 
-p + p {
+p + p,
+h1 + * {
   margin-top: var(--sizing-500);
 }
+
+h1:not(.Headerbar-title) { font-size: var(--fontSize-large); }
+
+h2:not(h2[class]) { font-weight: 700; }
