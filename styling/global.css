@@ -26,6 +26,7 @@
 
 body {
   margin: min(10vw, 7rem) 1em;
+  background: var(--color-primary);
 }
 
 hr {

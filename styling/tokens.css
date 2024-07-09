@@ -14,9 +14,10 @@
   --sizing-800: 1.75em;
   --sizing-900: 3rem;
 
-  --color-primary: #ffffff;
-  --color-onPrimary: #0e0e0e;
-  --color-hover: rgba(0, 0, 0, .05);
+  --color-primary: #000000;
+  --color-onPrimary: #ffffff;
+  --color-onPrimary-faded: rgba(255, 255, 255, .5);
+  --color-hover: rgba(255, 255, 255, .1);
 
   --opacity-faded: .5;
 }
